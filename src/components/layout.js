@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './header'
+import Header from './Header'
 import Helmet from 'react-helmet'
 import {Global, css} from '@emotion/react'
 

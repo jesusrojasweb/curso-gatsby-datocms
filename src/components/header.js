@@ -1,9 +1,36 @@
 import React from 'react'
+import {css} from '@emotion/react'
 
 export default function Header() {
     return (
-        <div>
-            <h1>Desde header</h1>
-        </div>
+        <header
+            css={css`
+                background-color: #333;
+                padding: 1rem;
+            `}
+        >
+            <div
+                css={css`
+                    max-width: 1200px;
+                    margin: 0 auto;
+
+                    @media (min-width: 768px){
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                    }
+                `}
+            >
+                <h1
+                    css={css`
+                        color: #FFF;
+                        text-align: center;
+                    `}
+                >Desde header</h1>
+
+
+            </div>
+        </header>
     )
 }
