@@ -1,5 +1,6 @@
 import React from 'react'
 import {css} from '@emotion/react'
+import Navegacion from './Nav'
 
 export default function Header() {
     return (
@@ -28,7 +29,8 @@ export default function Header() {
                         text-align: center;
                     `}
                 >Desde header</h1>
-
+                
+                <Navegacion/>
 
             </div>
         </header>
