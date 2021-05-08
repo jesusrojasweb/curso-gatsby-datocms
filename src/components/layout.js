@@ -12,9 +12,10 @@ export function Layout({children}) {
                         font-size: 62.5%;
                     }
                     body{
-                        font-size: 16px;
-                        font-size: 1.6rem;
+                        font-size: 18px;
+                        font-size: 1.8rem;
                         line-height: 1.5;
+                        font-family: 'PT Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                     }
                     h1,h2,h3{
                         margin: 0;
@@ -41,7 +42,6 @@ export function Layout({children}) {
             </Helmet>
 
             <Header/>
-            <h1>Layout</h1>
             {children}
         </div>
     )
